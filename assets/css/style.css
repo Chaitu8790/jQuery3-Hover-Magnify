@@ -1,0 +1,229 @@
+/*Nav bar list items*/
+ .navbar li{
+     color: white;
+     font-size: 12px;
+}
+/*Form Indicating Search bar and button*/
+ form{
+     margin:auto;
+     max-width:300px;
+}
+ form.example input[type="text"] {
+     font-size: 17px;
+     border: 1px solid grey;
+     float: left;
+     background: #f1f1f1;
+}
+ form.example button {
+     float: left;
+     width: 10%;
+     padding: 1px;
+     background: #ff9900;
+     color: white;
+     font-size: 17px;
+     border: 1px solid grey;
+     border-left: none;
+     cursor: pointer;
+}
+/* Rating Star Widgets Style */
+ .rating-stars ul {
+     list-style-type:none;
+     padding:0;
+     -moz-user-select:none;
+     -webkit-user-select:none;
+}
+ .rating-stars ul > li.star {
+     display:inline-block;
+     float: left;
+}
+/* Idle State of the stars */
+ .rating-stars ul > li.star > i.fa {
+     font-size:1.5em;
+    /* Change the size of the stars */
+     color:#ccc;
+    /* Color on idle state */
+}
+/* Selected state of the stars */
+ .rating-stars ul > li.star.selected > i.fa {
+     color:#FF912C;
+}
+ .image 
+/*homepage various small images style*/
+ {
+     display: block;
+     width: 40px;
+     height:70px;
+     margin-left:25px;
+     margin-top:20px;
+}
+ .smlimg 
+/*homepage various small images style*/
+ {
+     width: 30px;
+     display: block;
+     border:1px solid grey;
+     margin-bottom: 4px;
+     margin-left: 10px;
+}
+ .image:hover,.smlimg:hover {
+     border:2px solid orange;
+     cursor: pointer;
+}
+ em{
+     color: orange;
+}
+ .homeimage 
+/*homepage magnifying images style*/
+ {
+     margin-top:50px;
+     max-width: 100%;
+     max-height:100%;
+     display:none;
+}
+ .mag {
+     width:200px;
+     float:none;
+     margin-left:170px;
+     position:absolute;
+}
+ .mag img {
+     max-width: 100%;
+}
+ .magnify {
+     position:absolute;
+     cursor: none 
+}
+ .magnify-large {
+     position: absolute;
+     border: 2px solid rgb(238, 238, 238);
+     border-radius: 10px;
+     display: none;
+     width: 500px;
+     height:500px;
+     background-color: rgb(255, 255, 255);
+     background-repeat: no-repeat;
+     overflow: hidden;
+     visibility: visible;
+     background-position: -85.3511px -82.3253px;
+     left: 81.25px;
+     top: -28px;
+}
+ img.homeimage.active {
+     display: inline;
+}
+ .border{
+     border-color: blue;
+}
+ p{
+     font-size: 13px;
+     font-variant-caps: all;
+     color:red;
+}
+ .col-md-6 a{
+     color:#1c86ee;
+}
+/*Slider*/
+ #slider {
+     position: relative;
+     overflow: hidden;
+     margin: 20px auto 0 auto;
+     border-radius: 4px;
+}
+ #slider ul {
+     position: relative;
+     margin: 0;
+     padding: 0;
+     height: 200px;
+     list-style: none;
+}
+ #slider ul li {
+     position: relative;
+     display:inline-block;
+     float: left;
+     width: 200px;
+     height: 100px;
+     background-color:none;
+     line-height: 300px;
+}
+ a.control_prev, a.control_next {
+     position: absolute;
+     margin-bottom:150px;
+     z-index: 999;
+     display: block;
+     padding: 4% 3%;
+     width: auto;
+     height: auto;
+     color:#1c86ee;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 18px;
+     opacity: 0.8;
+     cursor: pointer;
+}
+ a.control_prev:hover, a.control_next:hover {
+     opacity: 1;
+     -webkit-transition: all 0.2s ease;
+}
+ a.control_prev {
+     margin-left: 140px;
+     border-radius: 0 2px 2px 0;
+}
+ a.control_next {
+     right: 0;
+     border-radius: 2px 0 0 2px;
+}
+ .slider_option {
+     position: relative;
+     margin: 10px auto;
+     width: 160px;
+     font-size: 18px;
+}
+ span{
+     text-decoration:line-through;
+}
+ .pr{
+     color: red;
+     margin-left:14px;
+     font-size: 14px;
+}
+ e{
+     font-size: 13px;
+}
+ #text{
+     font-size: 15px;
+     color:#0645AD;
+}
+ h4{
+     color:#0645AD;
+}
+ b{
+     font-size:12px;
+}
+ .col-md-1 img{
+     width:32px;
+     height:50px;
+}
+ .col-md-3{
+     margin-left:50%;
+     margin-top:5%;
+}
+ .btn{
+     background-color:gold;
+     margin:30px;
+}
+/*Footer*/
+ .panel-footer{
+     margin-bottom:-55px;
+     height: 150px;
+     font-size: 13px;
+     background-color:#242f3a;
+     color:grey;
+}
+ @media screen (max-width: 500px;
+){
+     .navbar li{
+         display: inline-block;
+         color: white;
+         font-size: 8px;
+    }
+}

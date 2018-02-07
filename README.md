@@ -1,1 +1,2 @@
-# jQuery3-Hover-Magnify
+# jQuery Multiple Product Selections
+#Selected Product with magnifying hover effect. 

@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Amazon jQuery</title>
+      <!-- Meta tags Used -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"
+      <meta name="description" content="Amazon jQuery">
+      <meta name="keywords" content="HTML,CSS,Bootstrap,JS">
+      <meta name="author" content="tchaitanya.nyros">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Icon -->
+      <link rel="icon" href="./assets/css/images/Logo.png" type="image/gif" sizes="16x16">
+      <!-- Bootstrap CSS and JS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- External css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   </head>
+   <body>
+      <html>
+         <head>
+         </head>
+         <body>
+            <!-- Bootstrap nav bar -->
+            <nav class="navbar" style="height:130px;background-color:#242f3a;">
+               <img src="./assets/css/images/amazon%20logo_.png"style="margin-top: 10px;">
+               <a href="">Try Prime</a>
+               <img src="./assets/css/images/1.jpg" style="margin-left: 900px;">
+               <div class="container-fluid" style="margin-top:-40px;">
+                  <div class="navbar-header">
+                     <a class="navbar-brand" href="#"></a>
+                  </div>
+                  <form class="example" action="/action_page.php">
+                     <input type="text" placeholder="" name="search2">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <div class="row">
+                     <ul class="nav navbar-nav">
+                        <li class="glyphicon glyphicon-map-marker"style="color:white;font-size:30px;"></li>
+                        <li>
+                           <p>Deliver to<br>Kakinada 533004</p>
+                        </li>
+                        <li style="margin-left: 200px;"><a href="#">Your Amazon.in</a></li>
+                        <li><a href="#">Today's Deals</a></li>
+                        <li><a href="#">Amazon Pay</a></li>
+                        <li><a href="#">Sell</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <!-- List of items For Selecting & Magnfying -->
+            <div class="col-md-1">
+               <img src="./assets/css/images/2.jpg"  class="smlimg" id="hm1"  alt="image" title="Macbook">
+               <img src="./assets/css/images/3.jpeg" class="smlimg"   id="hm2" alt="image" title="Macbook">
+               <img src="./assets/css/images/4.jpg"   class="smlimg" id="hm3" alt="image" title="Macbook"> 
+               <img src="./assets/css/images/5.jpg"   class="smlimg"  id="hm4" alt="image" title="Macbook">
+               <img src="./assets/css/images/6.jpg"  class="smlimg" id="hm5" alt="image" title="Macbook">
+               <img src="./assets/css/images/7.jpg"  class="smlimg" id="hm6" alt="image" title="Macbook">
+               <img src="./assets/css/images/8.jpg" class="smlimg" id="hm7" alt="image" title="Macbook">
+               <img src="./assets/css/images/9.jpg"   class="smlimg" id="hm8" alt="image" title="Macbook">
+               <img src="./assets/css/images/10.jpg"   class="smlimg" id="hm9" alt="image" title="Macbook">
+               <img src="./assets/css/images/11.jpg"   class="smlimg" id="hm10" alt="image" title="Macbook">
+            </div>
+            <!-- Magnifying Each Item -->
+            <div class="col-md-5">
+               <div class="mag">
+                  <div>
+                     <img data-toggle="magnify" src="./assets/css/images/2.jpg" class="homeimage active" id="homeimage1" alt="">
+                     <img data-toggle="magnify" src="./assets/css/images/3.jpeg" class="homeimage " id="homeimage2"  alt="image" title="Macbook">
+                  </div>
+                  <div>
+                     <img data-toggle="magnify" src="./assets/css/images/4.jpg"  class="homeimage " id="homeimage3">
+                     <img data-toggle="magnify" src="./assets/css/images/5.jpg" class="homeimage " id="homeimage4" alt=""> 
+                  </div>
+                  <div>
+                     <img data-toggle="magnify" src="./assets/css/images/6.jpg" class="homeimage " id="homeimage5" alt="">
+                     <img data-toggle="magnify" src="./assets/css/images/7.jpg" class="homeimage " id="homeimage6" alt="">
+                  </div>
+                  <div>
+                     <img data-toggle="magnify" src="./assets/css/images/8.jpg" class="homeimage " id="homeimage7" alt="">
+                     <img data-toggle="magnify" src="./assets/css/images/9.jpg" class="homeimage " id="homeimage8" alt="">
+                  </div>
+                  <div>
+                     <img data-toggle="magnify" src="./assets/css/images/10.jpg" class="homeimage " id="homeimage9" alt="">
+                     <img data-toggle="magnify" src="./assets/css/images/11.jpg" class="homeimage " id="homeimage10" alt="">
+                  </div>
+               </div>
+            </div>
+            <!-- / Container Indicating Product Details -->
+            <div class="col-md-6">
+               <div>
+                  <h4><a href="">Apple iPhone 5S</a><br></h4>
+                  <e id="text">
+                     <a href=""> 10,441 customer reviews</a>
+                     <a href="">| 999 answered questions</a>
+                  </e>
+                  <br>
+                  <br>
+                  <e class="w3-tag">Amazon's <em> Choice</em></e>
+                  for<a href="">"iPhones"</a>
+                  <hr>
+                  M.R.P.: &nbsp &#x20b9<span>26,699.00</span>
+                  <br>
+                  Price:
+                  <e class="pr">&#x20b9 17,880.00</e>
+                  <br>
+                  You Save:
+                  <e class="pr">&#x20b9 5,940.00(23%)</e>
+                  <br>
+                  <b>Inclusive of all taxes</b>
+                  <em><br>Only 1 left in stock. </em>
+                  <br>
+                  <e>
+                     Delivery to pincode 533004 - Kakinada within 2 - 4 business days. <a href="">Details</a>
+                  </e>
+               </div>
+               <!-- User Ratings -->
+               <div class='rating-stars text-center'>
+                  <ul id='stars'>
+                     <li class='star' title='Poor' data-value='1'>
+                        <i class='fa fa-star fa-fw'></i>
+                     </li>
+                     <li class='star' title='Fair' data-value='2'>
+                        <i class='fa fa-star fa-fw'></i>
+                     </li>
+                     <li class='star' title='Good' data-value='3'>
+                        <i class='fa fa-star fa-fw'></i>
+                     </li>
+                     <li class='star' title='Excellent' data-value='4'>
+                        <i class='fa fa-star fa-fw'></i>
+                     </li>
+                     <li class='star' title='WOW!!!' data-value='5'>
+                        <i class='fa fa-star fa-fw'></i>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+            <!-- Selecting Various Proucts -->
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="well">
+                     <p>Choose your Product</p>
+                     <div id="slider" style="overflow-x: scroll;">
+                        <a href="#" class="glyphicon glyphicon-arrow-right control_next"></a>
+                        <a href="#" class="glyphicon glyphicon-arrow-left control_prev"></a>
+                        <!-- homepage row -->
+                        <!-- column for images in block style -->
+                        <ul>
+                           <li style="display: inline-flex;">
+                              <img src="./assets/css/images/2.jpg" width="50px" height="50px" class="image" id="image1" alt="image" title="Macbook">
+                              <img src="./assets/css/images/4.jpg" width="30px" height="50px" class="image" id="image2" alt="image" title="Macbook">
+                              <img src="./assets/css/images/6.jpg" width="30px" height="50px" class="image" id="image3" alt="image" title="Macbook">
+                           </li>
+                           <li style="display: inline-flex;">
+                              <img src="./assets/css/images/8.jpg" width="30px" height="50px" class="image" id="image4" alt="image" title="Macbook">
+                              <img src="./assets/css/images/10.jpg" width="30px" height="50px" class="image" id="image5" alt="image" title="Macbook">
+                           </li>
+                        </ul>
+                     </div>
+                     <button type="button" class="btn" onclick="alert('Added to Cart!')">Add to Cart</button>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer of the page -->
+            <div class="panel-footer text-center">
+               <img src="./assets/css/images/amazon%20logo_.png" style="margin-top: 10px;"><br>
+               Australia |Brazil |Canada |China |France |Germany |Italy |Japan |Mexico |Netherlands |Spain |UnitedKingdom |United States<br><br>© 1996-2018, Amazon.com, Inc. or its affiliates
+            </div>
+            </div>
+         </body>
+         </body>
+         <br><br>
+         <script type="text/javascript"  src="assets/js/script.js"></script>
+      </html>
+
